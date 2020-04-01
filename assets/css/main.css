@@ -1,0 +1,925 @@
+/* 
+    Author: Abdallah Mohammed
+    Version: 1.0
+*/
+
+
+
+
+/* Globel */
+@font-face {
+    font-family: "rouh";
+    src: url('/assets/Fonts/rush/Rush.ttf');
+}
+
+body {
+    letter-spacing: .5px !important;
+    color: #1F373D;
+}
+/* End  */
+
+
+
+
+/* -------------------- Header -------------------- */
+
+/* Container B-rap */
+.header .fexd-nav {
+    position: fixed !important;
+    width: 100%;
+    background-color: #f6f5f4;
+    z-index: 5;
+    transition: top .4s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+}
+
+.header .fexd-nav .container {
+    height: 60px !important;
+}
+
+.header .navigation-menu .container {
+    height: 95px;
+    font-size: 13px;
+}
+
+/* Logo */
+.header .navigation-menu .brand .logo-site {
+    color: #1F373d;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'rouh';
+}
+
+/* Icon Hamburger */
+.icon-hamburger::before {
+    content: "\f0c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 28px;
+    color: #1f373d;
+}
+
+/* List Menu */
+.header .navigation-menu .menu-dowen .unlist {
+    margin-right: 70px;
+}
+
+.header .navigation-menu .menu-dowen .unlist li a {
+    padding: 8px;
+    color: #1f373dd1;
+}
+
+/* Register */
+.header .navigation-menu .menu-dowen .register span a {
+    color: #1F373d;
+}
+
+.header .navigation-menu .menu-dowen .register span:nth-child(1) a {
+    padding-right: 8px;
+}
+
+.header .navigation-menu .menu-dowen .register span:nth-child(2) a {
+    background-color: #FFCC01;
+    padding: 8px 0px;
+    width: 150px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 1px solid #FFCC01;
+    transition: 0.4s all;
+}
+
+/* Haver All Link */
+.header .navigation-menu .brand .logo-site:hover,
+.header .navigation-menu .menu-dowen .unlist li a:hover,
+.header .navigation-menu .menu-dowen .register span a:hover {
+    color: #FFCC01;
+}
+
+.header .navigation-menu .menu-dowen .register span:nth-child(2) a:hover {
+    color: #1F373d;
+    background-color: #fff;
+}
+
+/* Content Intro */
+.front-intro .content {
+    height: 665px;
+}
+
+/* Title Intro */
+.front-intro .content .title-intro {
+    width: 60%;
+    height: 30vh;
+    z-index: 2;
+    top: 139px;
+}
+
+.front-intro .content .title-intro h1 {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.front-intro .content .title-intro .search {
+    width: 500px;
+    margin-top: 40px;
+}
+
+.front-intro .content .title-intro .search input {
+    width: 75%;
+    float: left;
+    background: url('/assets/images/logo/search.svg') no-repeat 8px 8px;
+    background-position: left;
+    border: 0px;
+    background-color: #fff;
+    padding: 25px 40px;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-position: left 15px top 29px;
+}
+
+.front-intro .content .title-intro .search input:focus,
+.front-intro .content .title-intro .search button:focus {
+    outline: none;
+}
+
+.front-intro .content .title-intro .search button {
+    width: 25%;
+    float: left;
+    border: 0px;
+    background-color: #FFCC01;
+    color: #1F373D;
+    padding: 25px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.front-intro .content .title-intro .search button:hover {
+    background-color: rgb(255, 222, 89);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* back img Intro */
+.front-intro .content .back-img {
+    width: 88%;
+    height: 630px;
+    float: right;
+    background: linear-gradient(to right, #ffffffab, transparent), url('/assets/images/Mrcedes-AMG/amg-5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: -60px;
+}
+
+.front-intro .content .back-img .info {
+    right: 0;
+    bottom: 0;
+    font-size: 13px;
+    color: #1f373d;
+    background-color: #ffcc01;
+    border-top-left-radius: 2px;
+}
+
+.front-intro .content .back-img .info .item-phone,
+.front-intro .content .back-img .info .item-map {
+    margin: 10px 15px;
+}
+
+.front-intro .content .back-img .info .item-phone::before {
+    content: "\f879";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.front-intro .content .back-img .info .item-map::before {
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+/* Scroll Down */
+.scroll-down {
+    cursor: pointer;
+    bottom: 35px;
+    height: 65px;
+    background: url('/assets/images/logo/scroll.svg') bottom no-repeat;
+}
+
+.scroll-down a {
+    transform: rotate(-90deg);
+    font-size: 12px;
+    white-space: nowrap;
+    color: #919EB1;
+    margin-top: -15px;
+}
+/* End Header */
+
+
+
+
+/* -------------------- Modified cars -------------------- */
+.modified-cars {
+    padding: 145px 0 80px;
+}
+
+/* Statistic */
+.modified-cars .statistic h2 {
+    padding: 15px 0 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.modified-cars .statistic p {
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    letter-spacing: 0.025em;
+}
+
+/* Number Statistic */
+.modified-cars .number-stic .item-num {
+    background-color: #F6F5F4;
+    width: 36%;
+    height: 200px;
+    margin: 0px 0px 30px 30px;
+    padding-top: 40px;
+    float: right;
+    font-weight: bold;
+}
+
+.modified-cars .number-stic .item-num p:nth-child(1) {
+    font-size: 40px;
+    color: #FFCC01;
+}
+
+.modified-cars .number-stic .item-num p:nth-child(2) {
+    font-size: 14px;
+    color: #1F373D;
+}
+/* End Modified cars */
+
+
+
+
+/* -------------------- Type of Cars Part One -------------------- */
+.typeof-car-part-one {
+    background-color: #F6F5F4;
+    padding: 60px 0 70px;
+}
+
+.typeof-car-part-one h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+/* Card Car */
+.typeof-car-part-one .card-car {
+    margin-top: 35px;
+    height: 450px;
+}
+
+/* Img Card */
+.typeof-car-part-one .card-car .img-card {
+    /* background: url('/assets/images/Mrcedes-AMG/mercedes-.jpg') center / cover no-repeat; */
+    height: 76%;
+}
+
+/* Body Card */
+.typeof-car-part-one .body-card {
+    height: 24%;
+    background-color: #fff;
+    padding: 25px 20px;
+}
+
+.typeof-car-part-one .body-card p {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+
+.typeof-car-part-one .body-card .price p {
+    color: #FFCC01;
+}
+
+.typeof-car-part-one .body-card .price .type {
+    font-size: 13px;
+    color: #919EB1;
+}
+
+.typeof-car-part-one .body-card .price .type span:nth-child(1)::before,
+.typeof-car-part-one .body-card .price .type span:nth-child(2)::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -22px;
+}
+
+.typeof-car-part-one .body-card .price .type span:nth-child(1)::before {
+    background: url('/assets/images/Mrcedes-AMG/car-new.svg');
+}
+
+.typeof-car-part-one .body-card .price .type span:nth-child(2)::before {
+    background: url('/assets/images/Mrcedes-AMG/seat-new.svg') center no-repeat;
+    left: 27px;
+    width: 16px;
+}
+
+/* View All Cars */
+.typeof-car-part-one .view-all {
+    margin-top: 40px;
+}
+
+.typeof-car-part-one .view-all .search-cars {
+    width: 500px;
+}
+
+.typeof-car-part-one .view-all .search-cars .search-type {
+    width: 75%;
+    float: left;
+    background: url('/assets/images/logo/search.svg') no-repeat 8px 8px;
+    background-position: left;
+    border: 0px;
+    background-color: #fff;
+    padding: 25px 40px;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-position: left 15px top 29px;
+}
+
+.typeof-car-part-one .view-all .search-cars .search-type:focus,
+.typeof-car-part-one .view-all .search-cars button:focus {
+    outline: none;
+}
+
+.typeof-car-part-one .view-all .search-cars button {
+    width: 25%;
+    float: left;
+    border: 0px;
+    background-color: #FFCC01;
+    color: #1F373D;
+    padding: 25px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.typeof-car-part-one .view-all .search-cars button:hover {
+    background-color: rgb(255, 222, 89);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Link View */
+.typeof-car-part-one .view-all .link-view {
+    margin-left: 40px;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.typeof-car-part-one .view-all .link-view:hover {
+    background-color: rgb(255, 222, 89);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+/* End Type of Cars Part One */
+
+
+
+
+/* -------------------- Cars Part Tow -------------------- */
+.cars-part-tow {
+    padding-top: 60px;
+}
+
+/* Works Title */
+.cars-part-tow .works-title h2 {
+    color: #1f373d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cars-part-tow .works-title p {
+    max-width: 420px;
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 1.9rem;
+}
+
+/* Item Card */
+.cars-part-tow .item-card {
+    height: 372px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.cars-part-tow .item-card .item-img {
+    height: 35%;
+    transition: .4s ease-in-out;
+    background: linear-gradient(#ffc10736, #ffcc01), url('/assets/images/Ferrari/F-1.png') center / cover no-repeat;
+}
+
+.cars-part-tow .item-card .item-img:hover {
+    height: 60%;
+}
+
+.cars-part-tow .item-card .img-tow {
+    background: linear-gradient(#ffc10736, #ffcc01), url('/assets/images/Ferrari/F-4.png') center / cover no-repeat;
+}
+
+.cars-part-tow .item-card .img-three {
+    background: linear-gradient(#ffc10736, #ffcc01), url('/assets/images/Ferrari/F-5.png') center / cover no-repeat;
+}
+
+.cars-part-tow .item-body  {
+    padding: 15px 0 16px;
+    background-color: #fff;
+    transition: 0.4s cubic-bezier(0.07, 0.13, 0.4, 0.81);
+}
+
+/* Title */
+.cars-part-tow .item-body .title {
+    padding: 0 20px;
+    height: 15%;
+    font-weight: 700;
+}
+
+.cars-part-tow .item-body .title p:nth-child(1) {
+    margin-right: 15px;
+}
+
+/* Info */
+.cars-part-tow .item-body .info {
+    padding: 0 20px 0 55px;
+    height: 30%;
+}
+
+.cars-part-tow .item-body .info p {
+    font-size: 13px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.cars-part-tow .item-body a {
+    padding: 0 10px 0 55px;
+    color: #1f373d;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/* End Cars Part Tow */
+
+
+
+
+/* -------------------- Cars Part Three Bugatti -------------------- */
+.cars-part-three {
+    padding: 90px 0 20px;
+}
+
+/* Title */
+.cars-part-three .title {
+    padding-bottom: 65px;
+}
+
+.cars-part-three .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cars-part-three .title p {
+    font-size: 13px;
+}
+
+/* Image Car */
+.cars-part-three .img-bugatti {
+    width: 100%;
+    height: 630px;
+    position: relative;
+    left: -105px;
+    background: url('/assets/images/Bugatti/B-1-10.jpg') center / cover no-repeat;
+}
+
+/* Information */
+.cars-part-three .item h4 {
+    font-size: 25px;
+}
+
+.cars-part-three .item p {
+    padding: 15px 0 50px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+/* End Cars Part Three Bugatti */
+
+
+
+
+/* -------------------- Meet Our Team -------------------- */
+.our-team {
+    background-color: #F6F5F4;
+    padding-bottom: 90px;
+}
+
+/* Title */
+.our-team .title {
+    padding: 90px 0 35px;
+}
+
+.our-team .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.our-team .title p {
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 1.9rem;
+}
+
+/* Card Team */
+.our-team .card-team {
+    height: 500px;
+    margin-top: 35px;
+}
+
+/* Img Team */
+.our-team .card-team .img-team {
+    height: 76%;
+}
+
+/* Team Body */
+.our-team .card-team .team-body {
+    height: 24%;
+    background-color: #fff;
+    padding: 25px 20px;
+}
+
+/* Details */
+.our-team .card-team .team-body .details {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.our-team .card-team .team-body .details span {
+    font-size: 13px;
+    color: #6c757d;
+    font-weight: 600;
+}
+
+/* Media */
+.our-team .card-team .team-body .media .m-face,
+.our-team .card-team .team-body .media .m-twer,
+.our-team .card-team .team-body .media .m-code {
+    color: #1f373d;
+}
+
+.our-team .card-team .team-body .media .m-face:hover {
+    color: #485A96;
+}
+
+.our-team .card-team .team-body .media .m-twer:hover  {
+    color: #5DA8DC;
+}
+
+.our-team .card-team .team-body .media .m-code:hover {
+    color: #CCCCCC;
+}
+/* End Meet Our Team */
+
+
+
+
+/* -------------------- Companies -------------------- */
+.companies {
+    padding: 90px 0;
+}
+
+.companies .row {
+    margin-bottom: 80px;
+} 
+
+.companies .row .col-md-6 {
+    padding: 0;
+}
+
+/* Img */
+.companies .img-com {
+    width: 100%;
+    height: 360px;
+    background: linear-gradient(#ffcc011f, #ffcc0161), url('/assets/images/Ferrari/F-5.png') center / cover no-repeat;
+}
+
+.companies .img-tow {
+    background: linear-gradient(#ffcc011f, #ffcc0161), url('/assets/images/Mrcedes-AMG/mercedes-.jpg') center / cover no-repeat;
+}
+
+.companies .img-three {
+    background: linear-gradient(#ffcc011f, #ffcc0161), url('/assets/images/Rolls-Royce/R-4.jpg') center / cover no-repeat;
+}
+
+/* Title */
+.companies .img-com .title {
+    bottom: -30px;
+    width: 60%;
+    margin: 0 20%;
+    height: 80px;
+    background-color: #ffcc01;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.companies .img-com .title a {
+    color: #1F373D;
+}
+
+.companies .img-com .title a:hover {
+    color: #fff;
+}
+
+/* Info */
+.companies .info h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.companies .info p {
+    max-width: 290px;
+    padding: 15px 0px 50px 0px;
+    font-size: 13px;
+    line-height: 1.8rem;
+}
+/* End Companies */
+
+
+
+
+/* -------------------- Footer -------------------- */
+.footer {
+    background-color: #1F373D;
+    width: 100%;
+    color: #fff;
+    padding: 65px 0;
+}
+
+/* Contact */
+.footer .contact {
+    border-bottom: 1px solid #919EB1;
+    padding-bottom: 45px;
+}
+
+/* Title */
+.footer .contact .title h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Subscribe */
+.footer .contact .subscribe {
+    width: 540px;
+}
+
+.footer .contact .subscribe input {
+    width: 80%;
+    height: 70px;
+    float: left;
+    padding: 0px 15px;
+    border: 0px;
+    margin-top: 26px;
+}
+
+.footer .contact .subscribe input:focus,
+.footer .contact .subscribe button:focus {
+    outline: none;
+}
+
+.footer .contact .subscribe button {
+    background-color: #FFCC01;
+    width: 20%;
+    height: 70px;
+    float: left;
+    border: 0px;
+    background-image: url('/assets/images/logo/sub.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 26px;
+}
+
+.footer .contact .subscribe button:hover {
+    background-color: #fbfbfb;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Bootom */
+.footer .foo-bottom {
+    padding-top: 70px;
+}
+
+.footer .foo-bottom h4 {
+    margin-bottom: 15px;
+}
+
+.footer .foo-bottom .bran-car img {
+    width: 6%;
+}
+
+.footer .foo-bottom  .copy {
+    font-size: 13px;
+}
+
+/* Categories */
+.footer .foo-bottom .categories h5 {
+    padding-bottom: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #919EB1;
+    text-transform: uppercase;
+}
+
+.footer .foo-bottom .categories a {
+    font-size: 13px;
+}
+/* End Footer */
+
+
+
+
+/* -------------------- Mobile Responsive -------------------- */
+/* Screen Width 1024px */
+@media (max-width: 1024px) {
+    /* Image Car */
+    .cars-part-three .img-bugatti {
+        left: 0;
+    }
+
+    .cars-part-three .item p {
+        padding: 0 0 36px;
+    }
+}
+
+/* Screen Width 768px */
+@media (max-width: 768px) {
+
+    /* Header */
+    .header .navigation-menu .icon-hamburger {
+        display: block !important;
+    }
+
+    /* Menu Dowen */
+    .header .navigation-menu .menu-dowen {
+        display: none !important;
+    }
+
+    .header .navigation-menu.active .menu-dowen {
+        display: block !important;
+        position: absolute;
+        width: 100%;
+        background-color: #f6f5f4;
+        top: 100%;
+        left: 0;
+        z-index: 4;
+        padding: 30px 0;
+    }
+
+    /* Un List */
+    .header .navigation-menu.active .menu-dowen .unlist {
+        margin: 0;
+    }
+
+    .header .navigation-menu.active .menu-dowen .unlist ul li {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    /* Register */
+    .header .navigation-menu.active .menu-dowen .register span {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    /* back Img Intro */
+    .front-intro .content .back-img {
+        right: 0;
+    }
+
+    /* Modified Cars Number Statistic */
+    .modified-cars .number-stic {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    /* Car Part One */
+    .typeof-car-part-one .view-all .search-cars {
+        margin: auto;
+    }
+
+    .typeof-car-part-one .view-all .btn {
+        margin: 20px auto 0;
+        width: 70% !important;
+    }
+
+    /* Image Car */
+    .cars-part-three .img-bugatti {
+        left: 0;
+        margin-bottom: 70px;
+    }
+
+    /* Companies */
+    .companies .img-com {
+        margin-bottom: 0;
+    }
+
+    .companies .media-md {
+        background: #ffcc01;
+    }
+
+    .companies .info p {
+        padding: 0;
+    }
+}
+
+/* Screen Width 425px */
+@media (max-width: 425px) {
+
+    /*-- Title Intro */
+    .front-intro .content .title-intro {
+        top: 10px;
+    }
+
+    /* Search Intro */
+    .front-intro .content .title-intro .search {
+        width: 400px;
+    }
+
+    /* Number Statistic */
+    .modified-cars .number-stic .item-num:nth-child(1),
+    .modified-cars .number-stic .item-num:nth-child(3) {
+        margin-left: 0;
+    }
+
+    /* Info */
+    .companies .info {
+        padding-top: 40px;
+    }
+}
+
+/* Screen Width 375px */
+@media (max-width: 375px) {
+
+    /* Search Intro */
+    .front-intro .content .title-intro .search {
+        width: 350px;
+    }
+
+    /* Scroll Intro */
+    .front-intro .content .scroll-down {
+        left: -20px;
+    }
+}
+
+/* Screen Width 320px */
+@media (max-width: 320px) {
+
+    /* Search Intro */
+    .front-intro .content .title-intro .search {
+        width: 300px;
+    }
+
+    /* back Img Intro */
+    .front-intro .content .back-img .info .item-phone, .front-intro .content .back-img .info .item-map {
+        margin: 10px 8px;
+    }
+
+    /* Number Statistic */
+    .modified-cars .number-stic .item-num {
+        width: 48%;
+        height: 170px;
+        margin: 0px 0px 11px 11px;
+    }
+}
+/* End Mobile Responsive */
