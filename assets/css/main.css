@@ -43,6 +43,10 @@ body {
 }
 
 /* Logo */
+.header .navigation-menu .brand img {
+    width: 112px;
+}
+
 .header .navigation-menu .brand .logo-site {
     color: #1F373d;
     font-size: 15px;
