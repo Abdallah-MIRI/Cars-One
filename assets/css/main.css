@@ -9,7 +9,7 @@
 /* Globel */
 @font-face {
     font-family: "rouh";
-    src: url('/assets/Fonts/rush/Rush.ttf');
+    src: url('../Fonts/rush/Rush.ttf');
 }
 
 body {
@@ -132,7 +132,7 @@ body {
 .front-intro .content .title-intro .search input {
     width: 75%;
     float: left;
-    background: url('/assets/images/logo/search.svg') no-repeat 8px 8px;
+    background: url('../images/logo/search.svg') no-repeat 8px 8px;
     background-position: left;
     border: 0px;
     background-color: #fff;
@@ -215,7 +215,7 @@ body {
     cursor: pointer;
     bottom: 35px;
     height: 65px;
-    background: url('/assets/images/logo/scroll.svg') bottom no-repeat;
+    background: url('../images/logo/scroll.svg') bottom no-repeat;
 }
 
 .scroll-down a {
