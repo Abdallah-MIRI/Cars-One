@@ -634,7 +634,7 @@ body {
 }
 
 .companies .img-tow {
-    background: linear-gradient(#ffcc011f, #ffcc0161), url('./images/Mrcedes-AMG/mercedes-.jpg') center / cover no-repeat;
+    background: linear-gradient(#ffcc011f, #ffcc0161), url('../images/Mrcedes-AMG/mercedes-.jpg') center / cover no-repeat;
 }
 
 .companies .img-three {
