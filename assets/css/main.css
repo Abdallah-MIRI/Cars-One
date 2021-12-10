@@ -173,7 +173,7 @@ body {
     width: 88%;
     height: 630px;
     float: right;
-    background: linear-gradient(to right, #ffffffab, transparent), url('/assets/images/Mrcedes-AMG/amg-5.jpg');
+    background: linear-gradient(to right, #ffffffab, transparent), url('../images/Mrcedes-AMG/amg-5.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -294,7 +294,7 @@ body {
 
 /* Img Card */
 .typeof-car-part-one .card-car .img-card {
-    /* background: url('/assets/images/Mrcedes-AMG/mercedes-.jpg') center / cover no-repeat; */
+    /* background: url('../images/Mrcedes-AMG/mercedes-.jpg') center / cover no-repeat; */
     height: 76%;
 }
 
@@ -331,11 +331,11 @@ body {
 }
 
 .typeof-car-part-one .body-card .price .type span:nth-child(1)::before {
-    background: url('/assets/images/Mrcedes-AMG/car-new.svg');
+    background: url('../images/Mrcedes-AMG/car-new.svg');
 }
 
 .typeof-car-part-one .body-card .price .type span:nth-child(2)::before {
-    background: url('/assets/images/Mrcedes-AMG/seat-new.svg') center no-repeat;
+    background: url('../images/Mrcedes-AMG/seat-new.svg') center no-repeat;
     left: 27px;
     width: 16px;
 }
@@ -352,7 +352,7 @@ body {
 .typeof-car-part-one .view-all .search-cars .search-type {
     width: 75%;
     float: left;
-    background: url('/assets/images/logo/search.svg') no-repeat 8px 8px;
+    background: url('../images/logo/search.svg') no-repeat 8px 8px;
     background-position: left;
     border: 0px;
     background-color: #fff;
@@ -438,7 +438,7 @@ body {
 .cars-part-tow .item-card .item-img {
     height: 35%;
     transition: .4s ease-in-out;
-    background: linear-gradient(#ffc10736, #ffcc01), url('/assets/images/Ferrari/F-1.png') center / cover no-repeat;
+    background: linear-gradient(#ffc10736, #ffcc01), url('../images/Ferrari/F-1.png') center / cover no-repeat;
 }
 
 .cars-part-tow .item-card .item-img:hover {
@@ -446,11 +446,11 @@ body {
 }
 
 .cars-part-tow .item-card .img-tow {
-    background: linear-gradient(#ffc10736, #ffcc01), url('/assets/images/Ferrari/F-4.png') center / cover no-repeat;
+    background: linear-gradient(#ffc10736, #ffcc01), url('../images/Ferrari/F-4.png') center / cover no-repeat;
 }
 
 .cars-part-tow .item-card .img-three {
-    background: linear-gradient(#ffc10736, #ffcc01), url('/assets/images/Ferrari/F-5.png') center / cover no-repeat;
+    background: linear-gradient(#ffc10736, #ffcc01), url('../images/Ferrari/F-5.png') center / cover no-repeat;
 }
 
 .cars-part-tow .item-body  {
@@ -519,7 +519,7 @@ body {
     height: 630px;
     position: relative;
     left: -105px;
-    background: url('/assets/images/Bugatti/B-1-10.jpg') center / cover no-repeat;
+    background: url('../images/Bugatti/B-1-10.jpg') center / cover no-repeat;
 }
 
 /* Information */
@@ -630,15 +630,15 @@ body {
 .companies .img-com {
     width: 100%;
     height: 360px;
-    background: linear-gradient(#ffcc011f, #ffcc0161), url('/assets/images/Ferrari/F-5.png') center / cover no-repeat;
+    background: linear-gradient(#ffcc011f, #ffcc0161), url('../images/Ferrari/F-5.png') center / cover no-repeat;
 }
 
 .companies .img-tow {
-    background: linear-gradient(#ffcc011f, #ffcc0161), url('/assets/images/Mrcedes-AMG/mercedes-.jpg') center / cover no-repeat;
+    background: linear-gradient(#ffcc011f, #ffcc0161), url('./images/Mrcedes-AMG/mercedes-.jpg') center / cover no-repeat;
 }
 
 .companies .img-three {
-    background: linear-gradient(#ffcc011f, #ffcc0161), url('/assets/images/Rolls-Royce/R-4.jpg') center / cover no-repeat;
+    background: linear-gradient(#ffcc011f, #ffcc0161), url('../images/Rolls-Royce/R-4.jpg') center / cover no-repeat;
 }
 
 /* Title */
@@ -723,7 +723,7 @@ body {
     height: 70px;
     float: left;
     border: 0px;
-    background-image: url('/assets/images/logo/sub.svg');
+    background-image: url('../images/logo/sub.svg');
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 26px;
